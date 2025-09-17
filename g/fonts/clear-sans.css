@@ -1,0 +1,20 @@
+/* Clear Sans Font for 2048 Game */
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Clear Sans'), local('ClearSans'),
+       url('data:font/woff2;base64,') format('woff2');
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Clear Sans Bold'), local('ClearSans-Bold'),
+       url('data:font/woff2;base64,') format('woff2');
+}
+
+body {
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+}

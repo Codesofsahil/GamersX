@@ -1,0 +1,15 @@
+{
+  "name": "gamersx",
+  "version": "1.0.0",
+  "description": "A modern offline gaming platform",
+  "main": "GamersX.html",
+  "scripts": {
+    "start": "npx http-server -p 0 -o GamersX.html --silent"
+  },
+  "keywords": ["games", "offline", "html5", "gaming"],
+  "author": "CodesofSahil",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
