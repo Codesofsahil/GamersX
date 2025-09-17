@@ -4,9 +4,21 @@ A modern offline gaming platform featuring a sleek interface and extensive game 
 
 ## 🚀 Quick Setup
 
+### Prerequisites (If Node.js not installed)
+1. Go to https://nodejs.org
+2. Download **LTS version** (recommended)
+3. Run the installer → Next → Next → Install
+4. Restart Command Prompt/Terminal
+5. Verify installation:
+   ```bash
+   node --version
+   npm --version
+   ```
+
+### Installation Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/GamersX.git
+   git clone https://github.com/Codesofsahil/GamersX.git
    cd GamersX
    ```
 
@@ -14,6 +26,7 @@ A modern offline gaming platform featuring a sleek interface and extensive game 
    ```bash
    npm install
    ```
+   *If npm install fails, try: `npm install --force` or run as Administrator*
 
 3. Start the server:
    ```bash
@@ -34,10 +47,16 @@ The gaming platform will automatically open in your browser
 
 ## 🚀 Quick Start
 
+### Method 1: Direct File Opening (No Node.js needed)
 1. Download or clone this repository
 2. Open `GamersX.html` in your web browser
 3. Browse games by category or use the search bar
 4. Click any game to start playing!
+
+### Method 2: With Local Server (Recommended)
+1. Follow the **Quick Setup** instructions above
+2. Run `npm start` for better performance
+3. Access via http://localhost:8080
 
 ## 🎯 Game Categories
 
