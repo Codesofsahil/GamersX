@@ -1,6 +1,6 @@
 # Gamers'X 🎮
 
-A modern offline gaming platform featuring a sleek interface and extensive game collection. Play your favorite games without internet connection!
+A modern online gaming platform featuring a sleek interface and extensive game collection. Play your favorite games with seamless internet connectivity!
 
 ## 🚀 Quick Setup
 
@@ -47,13 +47,7 @@ The gaming platform will automatically open in your browser
 
 ## 🚀 Quick Start
 
-### Method 1: Direct File Opening (No Node.js needed)
-1. Download or clone this repository
-2. Open `GamersX.html` in your web browser
-3. Browse games by category or use the search bar
-4. Click any game to start playing!
-
-### Method 2: With Local Server (Recommended)
+### Method 1: With Local Server (Recommended)
 1. Follow the **Quick Setup** instructions above
 2. Run `npm start` for better performance
 3. Access via http://localhost:8080
@@ -88,10 +82,10 @@ Access settings via the gear icon in the top-right corner:
 
 ## 🛠️ Technical Details
 
-- **Offline First**: All games work without internet connection
+- **Online Gaming Portal**: Cloud-based gaming platform with internet connectivity
 - **Ruffle Integration**: Flash games powered by Ruffle emulator
 - **Responsive Design**: Works on desktop, tablet, and mobile
-- **Local Storage**: Settings and preferences saved locally
+- **Cloud Storage**: Settings and preferences synced across devices
 - **Modern JavaScript**: Clean, efficient code structure
 
 ## 📁 Project Structure
